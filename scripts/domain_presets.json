@@ -1,0 +1,51 @@
+{
+  "brain": {
+    "name": "脑电 / 脑磁 / 脑机接口 / 神经解码",
+    "name_en": "EEG / MEG / BCI / Neural Decoding",
+    "search_queries": ["EEG", "MEG", "BCI", "brain", "neural decoding", "fMRI", "cortex"],
+    "filter_keywords": ["eeg", "meg", "bci", "brain", "neural decoding", "fmri", "cortex", "brain-computer", "electrocorticography", "ecog", "intracranial", "scalp eeg", "neural speech", "auditory attention"],
+    "exclude_keywords": ["brainstorm", "second brain"]
+  },
+  "rag": {
+    "name": "大模型检索 / RAG / 向量检索 / 记忆检索",
+    "name_en": "RAG / Retrieval / Vector Search / Memory",
+    "search_queries": ["RAG", "retrieval", "dense retrieval", "memory retrieval", "vector search", "rerank"],
+    "filter_keywords": ["rag", "retrieval", "retriever", "dense retrieval", "sparse retrieval", "splade", "rerank", "reranking", "vector search", "context retrieval", "memory retrieval", "persistent memory", "kv-cache reuse", "knowledge retrieval"],
+    "exclude_keywords": []
+  },
+  "ie": {
+    "name": "信息抽取 / 知识图谱 / 实体对齐",
+    "name_en": "Information Extraction / Knowledge Graph / Entity Alignment",
+    "search_queries": ["information extraction", "named entity", "relation extraction", "event extraction", "knowledge graph", "NER"],
+    "filter_keywords": ["extract", "extraction", "named entity", "ner", "relation extraction", "event extraction", "knowledge graph", "kgqa", "kg", "entity matching", "entity linking", "triple", "triplet", "schema"],
+    "exclude_keywords": []
+  },
+  "foundation": {
+    "name": "大模型基础 / 预训练 / 推理 / 剪枝 / 量化 / 对齐",
+    "name_en": "LLM Foundation / Pre-training / Reasoning / Quantization / Pruning / Alignment",
+    "search_queries": ["pre-training", "reasoning", "quantization", "pruning", "alignment", "KV cache", "scaling law", "distillation"],
+    "filter_keywords": ["pre-training", "pretraining", "reasoning", "chain-of-thought", "cot", "scaling law", "kv cache", "kv-cache", "pruning", "quantization", "quantize", "quantizing", "alignment", "misalignment", "distillation", "unembedding", "moe", "mixture-of-experts", "tokenization", "rlvr", "preference data", "reward model"],
+    "exclude_keywords": []
+  },
+  "agent": {
+    "name": "智能体系统 / 工具调用 / 规划反思",
+    "name_en": "Agent Systems / Tool Use / Planning",
+    "search_queries": ["agent", "multi-agent", "tool use", "planning", "function calling"],
+    "filter_keywords": ["agent", "multi-agent", "agentic", "tool use", "tool creation", "workflow", "planning", "reflection", "autonomous agent"],
+    "exclude_keywords": []
+  },
+  "multimodal": {
+    "name": "多模态大模型 / 视觉语言 / 音视频大模型",
+    "name_en": "Multimodal LLM / Vision-Language / Audio-Video",
+    "search_queries": ["multimodal", "vision-language", "VLM", "video LLM", "audio-language"],
+    "filter_keywords": ["multimodal", "vision-language", "vlm", "mllm", "image-text", "visual reasoning", "video-language", "speech-language"],
+    "exclude_keywords": []
+  },
+  "embodied": {
+    "name": "具身智能 / 机器人大模型 / 空间智能",
+    "name_en": "Embodied AI / Robotics / Spatial Intelligence",
+    "search_queries": ["embodied", "robotics", "manipulation", "spatial intelligence", "robot learning"],
+    "filter_keywords": ["embodied", "robotics", "robot", "manipulation", "navigation", "spatial intelligence", "sim-to-real", "sensorimotor"],
+    "exclude_keywords": []
+  }
+}
